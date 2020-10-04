@@ -122,6 +122,6 @@ binary	binary	Operations are performed in binary mode rather than text.
 ate	at end	The output position starts at the end of the file.
 app	append	All output operations happen at the end of the file, appending to its existing contents.
 trunc	truncate	Any contents that existed in the file before it is open are discarded.
-TABLE 3 – Open modes in file handling
+TABLE 3 – Open modes in file handling 
 There are default mode that are applied if we don’t provide any open mode. For ifsream default mode is ios::in , for ofstream ios::out and for fstream ios::in | ios::out.
 	For using various function in C++ we have to include different header file. To minimize the potential for errors, C++ has adopted the convention of using header files to contain declarations. You make the declarations in a header file, then use the #include directive in every .cpp file or other header file that requires that declaration. The #include directive inserts a copy of the header file directly into the .cpp file prior to compilation.
